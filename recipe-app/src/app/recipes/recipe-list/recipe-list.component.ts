@@ -7,6 +7,7 @@ import { Recipe } from '../recipe.model';
   styleUrls: ['./recipe-list.component.css']
 })
 export class RecipeListComponent implements OnInit {
+
   recipes: Recipe[] = [
     new Recipe("Lasagna", "Garfield's favourite food", "http://tiny.cc/opquqz"),
     new Recipe("Bolognese", "Garfield's favourite food", "http://tiny.cc/opquqz")
